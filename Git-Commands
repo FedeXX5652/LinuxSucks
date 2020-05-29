@@ -1,0 +1,8 @@
+Subir:
+git push
+
+bajar:
+git pull -
+
+estadisticas:
+git status
