@@ -1,4 +1,4 @@
-cd ../../mnt/c/Users/PC/Documents/LinuxCCode
+cd ../../mnt/c/Users/PC/Documents/Git-LinuxCCode
 
 (consola linux)
 
