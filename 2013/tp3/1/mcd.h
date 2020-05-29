@@ -1,0 +1,1 @@
+int maximo_comun_divisor(int, int);

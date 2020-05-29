@@ -1,0 +1,7 @@
+cd ../../mnt/c/Users/PC/Documents/LinuxCCode
+
+(consola linux)
+
+C:\Users\PC\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home
+
+(/home en windows)

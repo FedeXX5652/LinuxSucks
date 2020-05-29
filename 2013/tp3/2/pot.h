@@ -1,0 +1,1 @@
+int pot(int, int);

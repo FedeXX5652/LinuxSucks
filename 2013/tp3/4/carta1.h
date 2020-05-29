@@ -1,0 +1,1 @@
+void carta1 (int[],int LARGO);

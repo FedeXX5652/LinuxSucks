@@ -1,0 +1,26 @@
+sudo apt-get install (Nombre de Librería)
+
+gcc -o (Nombre del Archivo) (Nombre del Archivo).c
+
+%userprofile%\AppData\Local\Packages
+
+Compilando
+compilo directamente a binario:
+gcc -o hola hola.c
+Compilador para mostrar errores:
+gcc -Wall -o hola hola.c
+Para agregar información de debugging:
+gcc -Wall -g -o hola hola.c
+Solo compilo (no linkeo):
+gcc -c -o hola.o hola.c
+Compilo con información adicional:
+gcc -c -g -o hola.o hola.c
+Para ver el código assembler:
+gcc -S hola.c -o -
+
+
+COMPILAR EN 2 PARTES:
+
+gcc -c (Nomb.ARCHIVO).c -o (Nomb.ARCHIVO).o -Wall
+linkear
+gcc (nomb ar),o -o nombarch -Wall

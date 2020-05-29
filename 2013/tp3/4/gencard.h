@@ -1,0 +1,1 @@
+int gencard (int[],int LARGO);
