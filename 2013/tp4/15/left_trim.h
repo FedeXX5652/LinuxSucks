@@ -1,0 +1,1 @@
+void left_trim (char *);
