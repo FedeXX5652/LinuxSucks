@@ -1,4 +1,4 @@
-cd ../../mnt/c/Users/PC/Documents/Git-LinuxCCode
+cd ../../mnt/c/Users/PC/Documents/Git-LinuxCCode/LinuxSucks
 
 (consola linux)
 
