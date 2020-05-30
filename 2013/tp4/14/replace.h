@@ -1,1 +1,1 @@
-void replace (char *, char, char);
+void replace (char *, char , char );

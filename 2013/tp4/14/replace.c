@@ -4,6 +4,11 @@
 void replace (char *s, char nuevo, char viejo){
 
     
+
+
+
+    printf("Nuevo: %c\n", nuevo);
+
     int length = strlen(s);
 
     for (int i = 0; i < length; i++){
