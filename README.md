@@ -3,9 +3,15 @@ Repositorio grupo 3
 
 Y todos recuerden:
 ```sh
-LINUX SE LA RE COME
+$#include <stdio.h>
+$
+$int main (void){
+$	char OS = "LINUX";
+$	if(OS != "WINDOWS"){
+$		printf("%s se la come", %OS);
+$	}
+$}
 ```
-
 Hasta la proooximaaaaaaaa
 
  > *Dubstep Intensifies*
