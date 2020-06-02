@@ -1,0 +1,1 @@
+void right_trim (char *);
