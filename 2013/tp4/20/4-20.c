@@ -6,3 +6,6 @@ de tipo enumerativo, que indique cuál de los dos extremos se desea calcular?
 Sugerencia:
 typedef enum { MAXIMO, MINIMO } t_extremo;
 */
+
+#include <stdio.h>
+#include "max_min.h"
