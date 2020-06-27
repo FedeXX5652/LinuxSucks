@@ -5,10 +5,7 @@ negativo, según corresponda. (Función strncmp() de la biblioteca <string.h>).
 El prototipo de la función pedida es:
 int my_strncmp (const char *s1, const char *s2, int n) ;*/
 
-#include <string.h>
-#include <stdio.h>
-
-int my_strcmp (const char *, const char *) ;
+#include "lib.h"
 
 int main()
 {
@@ -26,12 +23,4 @@ n = my_strcmp (t,s);
 printf("%d\n",n);
 
 return 0;
-}
-
-int my_strcmp (const char *t, const char *s){
-
-int p;
-p = strcmp(t, s);
-
-return p;
 }

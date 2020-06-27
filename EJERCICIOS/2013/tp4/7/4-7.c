@@ -6,10 +6,8 @@ biblioteca <string.h>).
 El prototipo de la función pedida es:
 void my_strcat (char *t, const char *s) ;*/
 
-#include <stdio.h>
-#include <string.h>
 
-void my_strcpy (char *, const char *);
+#include "lib.h"
 
 int main(void){
     
@@ -23,13 +21,4 @@ int main(void){
     my_strcpy (t, s);
 
     return 0;
-}
-
-void my_strcpy (char *t, const char *s){
-
-    
-    strcat(t, s);
-
-    printf ("RESULTADO: %s\n", t);
-
 }
