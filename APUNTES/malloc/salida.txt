@@ -1,0 +1,128 @@
+nombre:carlos
+ add de p:				0x7fffb9c8b490
+add del vector de adr:			0x7fffb9c8b260
+nombre:c 
+nombre:pedro
+ add de p:				0x7fffb9c8b6c0
+add del vector de adr:			0x7fffb9c8b260
+nombre:p 
+nombre:jose
+ add de p:				0x7fffb9c8b6e0
+add del vector de adr:			0x7fffb9c8b260
+nombre:j 
+nombre:nacho
+ add de p:				0x7fffb9c8b260
+add del vector de adr:			0x7fffb9c8b700
+nombre:n 
+nombre:hector
+ add de p:				0x7fffb9c8b730
+add del vector de adr:			0x7fffb9c8b700
+nombre:h 
+nombre:juno
+ add de p:				0x7fffb9c8b790
+add del vector de adr:			0x7fffb9c8b750
+nombre:j 
+nombre:pichito
+ add de p:				0x7fffb9c8b7b0
+add del vector de adr:			0x7fffb9c8b750
+nombre:p 
+nombre:juan manuel
+ add de p:				0x7fffb9c8b820
+add del vector de adr:			0x7fffb9c8b7d0
+nombre:j 
+nombre:ricardo
+ add de p:				0x7fffb9c8b840
+add del vector de adr:			0x7fffb9c8b7d0
+nombre:r 
+nombre:alberto fernandez
+ add de p:				0x7fffb9c8b8c0
+add del vector de adr:			0x7fffb9c8b860
+nombre:a 
+nombre:juan roman riquelme
+ add de p:				0x7fffb9c8b8e0
+add del vector de adr:			0x7fffb9c8b860
+nombre:j 
+nombre:martin palermo
+ add de p:				0x7fffb9c8b970
+add del vector de adr:			0x7fffb9c8b900
+nombre:m 
+nombre:oscar cordoba
+ add de p:				0x7fffb9c8b990
+add del vector de adr:			0x7fffb9c8b900
+nombre:o 
+nombre:walter samuel
+ add de p:				0x7fffb9c8ba30
+add del vector de adr:			0x7fffb9c8b9b0
+nombre:w 
+nombre:guillermo el mellizo
+ add de p:				0x7fffb9c8ba50
+add del vector de adr:			0x7fffb9c8b9b0
+nombre:g 
+nombre:carlos bianchi the best
+ add de p:				0x7fffb9c8bb00
+add del vector de adr:			0x7fffb9c8ba70
+nombre:c 
+nombre:la bombonera
+ add de p:				0x7fffb9c8bb20
+add del vector de adr:			0x7fffb9c8ba70
+nombre:l 
+nombre:el templo
+ add de p:				0x7fffb9c8bbe0
+add del vector de adr:			0x7fffb9c8bb40
+nombre:e 
+nombre:carlos salvador bilardo
+ add de p:				0x7fffb9c8bc00
+add del vector de adr:			0x7fffb9c8bb40
+nombre:c 
+nombre:diego armando maradona
+ add de p:				0x7fffb9c8bcd0
+add del vector de adr:			0x7fffb9c8bc20
+nombre:d 
+nombre:@clau
+ add de p:				0x7fffb9c8bcf0
+add del vector de adr:			0x7fffb9c8bc20
+nombre:@ 
+nombre0 :carlos
+ 	 nombre1 :pedro
+ 	 nombre2 :jose
+ 	 nombre3 :nacho
+ 	 nombre4 :hector
+ 	 nombre5 :juno
+ 	 nombre6 :pichito
+ 	 nombre7 :juan manuel
+ 	 nombre8 :ricardo
+ 	 nombre9 :alberto fernandez
+ 	 nombre10 :juan roman riquelme
+ 	 nombre11 :martin palermo
+ 	 nombre12 :oscar cordoba
+ 	 nombre13 :walter samuel
+ 	 nombre14 :guillermo el mellizo
+ 	 nombre15 :carlos bianchi the best
+! 	 nombre16 :la bombonera
+ 	 nombre17 :el templo
+ 	 nombre18 :carlos salvador bilardo
+± 	 nombre19 :diego armando maradona
+ 	 nombre20 :@clau
+ 	 adr_free0 :				0x7fffb9c8b490  
+adr_free1 :				0x7fffb9c8b6c0  
+adr_free2 :				0x7fffb9c8b6e0  
+adr_free3 :				0x7fffb9c8b260  
+adr_free4 :				0x7fffb9c8b730  
+adr_free5 :				0x7fffb9c8b790  
+adr_free6 :				0x7fffb9c8b7b0  
+adr_free7 :				0x7fffb9c8b820  
+adr_free8 :				0x7fffb9c8b840  
+adr_free9 :				0x7fffb9c8b8c0  
+adr_free10 :				0x7fffb9c8b8e0  
+adr_free11 :				0x7fffb9c8b970  
+adr_free12 :				0x7fffb9c8b990  
+adr_free13 :				0x7fffb9c8ba30  
+adr_free14 :				0x7fffb9c8ba50  
+adr_free15 :				0x7fffb9c8bb00  
+adr_free16 :				0x7fffb9c8bb20  
+adr_free17 :				0x7fffb9c8bbe0  
+adr_free18 :				0x7fffb9c8bc00  
+adr_free19 :				0x7fffb9c8bcd0  
+adr_free20 :				0x7fffb9c8bcf0  
+adr_free21 :				(nil)  
+adr_free:				0x7fffb9c8bd10  
