@@ -1,7 +1,7 @@
 #include "mylib.h"
 void numerizar (char *str) {
 
-
+/*Lucho*/
 
 int repeticiones [cant_letras];
 
