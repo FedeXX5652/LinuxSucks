@@ -1,0 +1,11 @@
+cd ../../mnt/c/Users/PC/Documents/Git-LinuxCCode/mybox
+
+COMPILAR PARA PARCIAL:
+
+    R1021(APELLIDO NOMBRE).zip
+
+(consola linux)
+
+C:\Users\PC\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home
+
+(/home en windows)
