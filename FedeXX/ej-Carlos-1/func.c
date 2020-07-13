@@ -1,12 +1,13 @@
 #include "link.h"
 
-int operator(int *num){
+int operator(int *num, int TAM){
     
     int suma=0;
     float prom=0;
     int mayor=num[0];
     int menor=num[0];
-    int TAM=(sizeof(num)/sizeof(num[0]));
+    
+
     printf("TAMAÑO: %d\n",TAM);
 
     for(int i=0; i<TAM; i++){

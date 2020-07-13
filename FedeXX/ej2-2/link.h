@@ -1,4 +1,4 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int operator(int *, int);
+void func(int, char **);

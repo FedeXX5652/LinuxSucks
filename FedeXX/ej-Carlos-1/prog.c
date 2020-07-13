@@ -19,6 +19,8 @@ int main (int argc, char *argv[]){
     
     int error = 0;
     int num[argc-1];
+    int TAM = (sizeof(num)/sizeof(num[0]));
+    printf("TAMAÑO: %d\n",TAM);
 
     for ( int i=0 ; i<argc-1 ; i++ ){
         num[i]=0;
@@ -38,7 +40,7 @@ int main (int argc, char *argv[]){
         printf("Numero %d = %d\n\n",i,num[i]);
     }
 
-    error = operator(num);
+    error = operator(num,TAM);
 
     return error;
 
