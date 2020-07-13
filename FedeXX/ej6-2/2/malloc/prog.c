@@ -26,13 +26,18 @@ int main(void){
         }
     }
     while(*aux != 0);
+    
+    free(aux);
+    for (int j=0; j<i; j++){
+        printf ("%d ", *(vec+j));
+    }
+
+    printf ("\n");
 
     printf("Ingrese el umbral que desea evaluar: \n");
     scanf ("%d", &umbral);
     res = ObtenerMayores(vec, i, umbral);
 	free(vec);
-    free(aux);
-
     printf("Resultado= %d\n",res);
 
     return 0;
