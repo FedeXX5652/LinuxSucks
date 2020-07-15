@@ -4,9 +4,8 @@ int main(int argc, char *argv[]){
 
     int res = 0;
     char car;
-    char *var;
-
-    
+    char pete = 0;
+    char *var = &pete;
 
     if (argc-1 != 1){
         printf("Error, ingrese solo una palabra\n");
