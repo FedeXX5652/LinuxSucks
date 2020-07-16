@@ -19,12 +19,8 @@ y en la siguiente línea una leyenda que informe la cantidad de caracteres reemp
 
 int main(int argc, char* argv[]){
 
-<<<<<<< HEAD
-    char *palabra[TAM];
+    char *proh[TAM];
     int cant = 0;
-=======
-    char *palabra[TAM] = 0;
->>>>>>> f0863e06da280b279271d8bebe6125c86ba0a234
     
     char p[30];
 
@@ -32,37 +28,19 @@ int main(int argc, char* argv[]){
 
         printf("Ingrese una palabra: \n");
         fgets(p, 30, stdin);
-<<<<<<< HEAD
-        palabra[i] = malloc((strlen(p)+1)*sizeof(char));
+        proh[i] = malloc((strlen(p)+1)*sizeof(char));
         
-        strcpy(palabra[i],p);
-        printf("%s",palabra[i]);
+        strcpy(proh[i],p);
+        printf("%s",proh[i]);
 
-        if (*palabra[i] == '\n')
+        if (*proh[i] == '\n')
         {
-            i = TAM;
             cant = i - 1;
+            i = TAM;
         }
-        
-=======
-        printf("%s",p);
-        strtok(palabra[i],p);
->>>>>>> f0863e06da280b279271d8bebe6125c86ba0a234
-
     }
 
-
-    
-
-
-
-
-
-<<<<<<< HEAD
-=======
-        printf("Palabra %d = %s\n",i,palabra[i]);
->>>>>>> f0863e06da280b279271d8bebe6125c86ba0a234
-
+    func(proh, argv, cant);
 
     return 0;
 
