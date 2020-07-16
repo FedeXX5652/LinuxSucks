@@ -19,7 +19,8 @@ y en la siguiente línea una leyenda que informe la cantidad de caracteres reemp
 
 int main(int argc, char* argv[]){
 
-    char *palabra[TAM] = {"","","","","","","","","",""};
+    char *palabra[TAM];
+    int cant = 0;
     
     char p[30];
 
@@ -27,18 +28,28 @@ int main(int argc, char* argv[]){
 
         
         fgets(p, 30, stdin);
-        printf("%s",p);
+        palabra[i] = malloc((strlen(p)+1)*sizeof(char));
+        
         strcpy(palabra[i],p);
+        printf("%s",palabra[i]);
+
+        if (*palabra[i] == '\n')
+        {
+            i = TAM;
+            cant = i - 1;
+        }
+        
 
     }
 
 
+    
 
-    for (int i=0; i<TAM; i++){
 
-        printf("Palabra %d = %s",i,palabra[i]);    
 
-    }
+
+
+
 
     return 0;
 
