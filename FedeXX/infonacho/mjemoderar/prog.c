@@ -24,7 +24,7 @@ int main(int argc, char* argv[]){
     
     char p[30];
 
-    for (int i=0; i<TAM; i++){
+    for (int i=0;    i<TAM; i++){
 
         printf("Ingrese una palabra: \n");
         fgets(p, 30, stdin);
@@ -40,7 +40,7 @@ int main(int argc, char* argv[]){
         }
     }
 
-    func(proh, argv, cant);
+    func(proh, argv, cant, argc);
 
     return 0;
 

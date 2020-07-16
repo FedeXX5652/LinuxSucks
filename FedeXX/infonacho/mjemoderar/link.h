@@ -4,4 +4,4 @@
 
 #define TAM  10
 
-void func(char **, char **, int);
+void func(char **, char **, int, int);

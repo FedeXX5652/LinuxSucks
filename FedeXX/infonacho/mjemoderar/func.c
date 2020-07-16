@@ -1,12 +1,13 @@
 #include "link.h"
 
-void func(char **proh, char **argv, int cant){
+void func(char **proh, char **argv, int cant, int argc){
 
     int i=0;
     int j=0;
     int r=0;
     int caracX = 0;
     char *p;
+    int coincidencias = 0;
 
     printf("cant = %d\n", cant);
     
@@ -21,7 +22,7 @@ void func(char **proh, char **argv, int cant){
     
     printf("--------------------------------------------------------\n\n");
     
-    for(j=0;j<=cant;j++){
+    for(j=0;j<=cant;j++){   
 
         printf("PROHIBIDO: %s", *(proh+j));
         printf("\n");
@@ -29,32 +30,32 @@ void func(char **proh, char **argv, int cant){
     }
 
     printf("--------------------------------------------------------\n\n");
+    
 
     for(int w=0;w<=cant;w++){
-
-        while(*(argv+r+1) != NULL){
-
-            p = *(argv+r+1);
-
-            if (strcmp(proh[w],p) == 0){
-                
-                for(int i=0; i<strlen(p); i++){
-                    //strcpy(*argv[r], 'X');
-                    printf("funcion\n");
-                    caracX++;
-                }
-                printf("funcion3\n");
+        for (int y = 1; y < argc; y++)
+        {
+            strcat(argv[y], "\0");
+            printf("arg: %ld\n", strlen(argv[y]));
+            printf("proh: %ld\n",strlen(proh[w]));
+            
+            if (strcmp(argv[y], proh[w])==0)
+            {
+                printf("entre\n");
+                coincidencias++;
             }
-            r++;
-            printf("funcion2\n");
-        }
+        } 
+       
     }
 
+    printf("Coincidencias: %d\n", coincidencias);
+    
+    printf("--------------------------------------------------------\n\n");
+    
     i=0;
-
     do{
 
-        printf("PALABRA: %s\n", *(argv+i+1));
+        printf("PALABRA CAMBIADAS: %s\n", *(argv+i+1));
         printf("\n");
         i++;
 
