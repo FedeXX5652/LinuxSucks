@@ -35,12 +35,16 @@ elemento del vector ser´a el puntero nulo (NULL), quedando de largo palabras+1.
 int main(void){
 
     char **ptr=NULL;
-    char str[]={"Holagil como va?"};
+    char str[]={"Hola como va?"};
 
     printf("String original: ");
     puts(str);
     
     ptr=extraer_palabras(str);
+
+    for(int i=0; i<3    ; i++){
+        printf( " %s\n", ptr[i]);
+    }
 
     printf("Palabras:\n");
     imprimir_palabras(ptr);
