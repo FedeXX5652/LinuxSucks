@@ -12,6 +12,4 @@ int main()
         }
 
     fclose( file );
-    printf("\n");
 }
-    
