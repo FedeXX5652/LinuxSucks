@@ -1,4 +1,4 @@
-# LinuxSucks
+# Linux
 Repositorio grupo 3
 
 Y todos recuerden:
